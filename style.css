@@ -3,7 +3,10 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
+body {
+  margin: 0;
+  padding: 0;
+}
 h1 {
   font-size: 35px;
   text-align: right;
@@ -25,6 +28,10 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: right;
+}
+
+.content-container {
+  padding-top: 50px;
 }
 
 .navigation-links {
@@ -85,6 +92,11 @@ p {
 .project-image {
   background: var(--secondary-color);
   padding: 45px 4px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 600px) {
   p {
